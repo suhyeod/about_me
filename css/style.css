@@ -1,0 +1,68 @@
+body {
+    height: 30000px;
+}
+
+
+#pc_header {
+    background-color: aqua;
+    width: 150px;
+    height: 100%;
+    position: fixed;
+    display: flex;
+}
+
+
+#pc_header > ul {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    align-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==================================================================================================================*/
+@media (min-width : 1200px) {
+    .mobile_container {
+        display: none;
+    }
+}
+@media(max-width : 1200px) {
+    .pc_container {
+        display: none;
+    }
+}
