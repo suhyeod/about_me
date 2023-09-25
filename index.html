@@ -1,48 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/reset.css">
-</head>
-<body>
-    <div class="pc_container">
-    <header id="pc_header">
-           <ul>
-            <li>사진</li>
-            <li>ABOUT</li>
-            <li>포트폴리오</li>
-           </ul>
-    </header>
-    <main id="pc_main">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/reset.css">
+    </head>
+    <body>
+        <div class="pc_container">
+            <header id="pc_header">
+                <ul>
+                    <li>
+                        <a href="#" onclick="img_()">사진</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="img_()">사진</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="img_()">사진</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="about_()">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="pf_()">포트폴리오</a>
+                    </li>
+                </ul>
+            </header>
+            <main id="pc_main">
+                <div id="img"></div>
+                <div id="about">
+                    <ul>
+                        <li class="about_1"><img src="#" alt="증명사진"></li>
+                        <li class="about_2">
+                            <p>연락처 : 01012345678</p>
+                        </li>
+                        <li class="about_3">
+                            <p>
+                                이메일 : oooooo@naver.com</p>
+                        </li>
+                        <li class="about_4">
+                            <p><span>안녕하세요 ! ~ 자기소개 ~</span>
+                            </p>
+                        </li>
+                        <li class="about_5">
+                            <img src="#" alt="인스타">
 
-    </main>
+                        </li>
+                    </ul>
+                </div>
+                <div id="pf"></div>
+            </main>
 
+        </div>
 
+        <div class="mobile_container">
+            <header id="mobile_header"></header>
 
-    </div>
+            <main id="mobile_main"></main>
+        </div>
 
-
-
-
-    <div class="mobile_container">
-        <header id="mobile_header"></header>
-
-
-
-
-        <main id="mobile_main">
-
-        </main>
-    </div>
-
-
-
-
-
-
-    <script src="/js/js.js"></script>
-</body>
+        <script src="/js/js.js"></script>
+    </body>
 </html>
