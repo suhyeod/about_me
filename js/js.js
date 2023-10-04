@@ -56,10 +56,10 @@ function window_op() {
 
 function pf_1() {
     let options = "top=0,left=0";
-    window.open("http://www.naver.com", "_blank", options);
+    window.open("https://suhyeod.github.io/popoapp/", "_blank", options);
 } /*딥디크 포트폴리오 넣기*/
 
 function pf_2() {
     let options = "top=0,left=0";
-    window.open("http://www.naver.com", "_blank", options);
+    window.open("https://suhyeod.github.io/tomn/", "_blank", options);
 } /*탐앤탐스 포트폴리오 넣기*/
